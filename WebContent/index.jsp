@@ -58,9 +58,9 @@
 			</form>
 			<!-- 右侧的导航项目 -->
 			<ul class="nav navbar-nav navbar-right">
-				<li><a href="your/nice/url">登录</a></li>
-				<li><a href="your/nice/url">注册</a></li>
-				<li><a href="your/nice/url">帮助</a></li>
+				<li><a href="<%=basePath%>Page/Login.jsp">登录</a></li>
+				<li><a href="<%=basePath%>Page/Register.jsp">注册</a></li>
+				<li><a href="<%=basePath%>Page/Login.jsp">帮助</a></li>
 				<li class="dropdown"><a href="your/nice/url"
 					class="dropdown-toggle" data-toggle="dropdown">探索 <b
 						class="caret"></b></a>
